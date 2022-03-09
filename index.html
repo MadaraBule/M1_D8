@@ -87,11 +87,11 @@
        Write a function for adding a new list item in the second unordered list.
       */
 
-//       const addToTheSecond = function (content) {
-//         let listItems = document.getElementsByClassName("ul"[1]);
-//         return listItems.insertAdjacentHTML("beforeend", content);
-//       };
-// console.log(addToTheSecond("4th"));
+      const addToTheSecond = function (content) {
+        let listItems = document.querySelector("ul"[1]).innerText + content;
+        return listItems.innerHTML
+      };
+console.log(addToTheSecond("4th"));
       /* EXERCISE 6
        Write a function for adding a second paragraph to the first div.
       */
