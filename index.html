@@ -51,44 +51,44 @@
        Write a function for changing the title of the document in something else.
       */
 
-      // const changeTitle = function (newTitle) {
-      //   let titleChanged = document.getElementById("title-text");
-      //   titleChanged.innerHTML = "Something else"
-      // };
-      // console.log(changeTitle("Something else"))
+      const changeTitle = function (newTitle) {
+        let titleChanged = document.getElementById("title-text");
+        titleChanged.innerHTML = "Something else"
+      };
+      console.log(changeTitle("Something else"))
       /* EXERCISE 2
        Write a function for changing the class of the title of the page in "myHeading".
       */
 
-      // const addClassToTitle = function (changeClass) {
-      //   let item = document.getElementsByTagName("h2");
-      // return item.classList.toggle("cat")
+      const addClassToTitle = function (changeClass) {
+        let item = document.getElementsByTagName("h2");
+      return item.classList.toggle("cat")
       // };
       /* EXERCISE 3
        Write a function for changing the text of only the p which are children of a div.
       */
 
-//       const changePcontent = function(pain) {
-//         let changeP = document.getElementById("pp");
-//         return changeP.innerHTML = pain;
-//       };
-// console.log(changePcontent("this is an item"));
+      const changePcontent = function(pain) {
+        let changeP = document.getElementById("pp");
+        return changeP.innerHTML = pain;
+      };
+console.log(changePcontent("this is an item"));
       /* EXERCISE 4
        Write a function for changing the href property of every link to https://www.google.com
       */
 
-//       const changeUrls = function (url) {
-//         let changedUrl = document.getElementById("link1");
-//         changedUrl.setAttribute;
-//         return changedUrl.innerHTML;
-//       };
-// console.log(url("https://www.google.com"));
+      const changeUrls = function(url) {
+        let changedUrl = document.getElementById("link1");
+        changedUrl.setAttribute;
+        return changedUrl.innerHTML;
+      };
+console.log(url("https://www.google.com"));
       /* EXERCISE 5
        Write a function for adding a new list item in the second unordered list.
       */
 
       const addToTheSecond = function (content) {
-        let listItems = document.querySelector("ul"[1]).innerText + content;
+        document.querySelector("ul"[1]).innerText + content;
         return listItems.innerHTML
       };
 console.log(addToTheSecond("4th"));
